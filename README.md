@@ -1,5 +1,28 @@
 # Production GitOps Platform on EKS
 
+
+
+## 🎥 Project Demo
+
+See the **Production GitOps Platform on Amazon EKS** in action.
+
+The demo covers:
+
+- Terraform-based AWS infrastructure
+- Amazon EKS cluster
+- ArgoCD GitOps workflow
+- Kubernetes application deployment
+- Git-based continuous delivery
+
+<video src="./assets/gitops-platform-demo.mp4" controls width="100%"></video>
+
+> **GitOps Flow:**  
+> GitHub → GitHub Actions → Terraform → Amazon EKS → ArgoCD → Kubernetes
+
+### ▶️ Demo Video
+
+[Watch / Download the GitOps Platform Demo](./assets/gitops-platform-demo.mp4)
+
 Minimal reference implementation of a production-style GitOps platform on Amazon EKS.
 
 - **Infra**: Terraform provisions the EKS cluster, VPC, and node groups.
